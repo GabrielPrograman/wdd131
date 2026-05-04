@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI," Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+header {
+    grid-column: 1 / span 2;
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+}
+
+main {
+    grid-column: 1 / 2;
+    background-color: #ecf0f1;
+    padding: 2rem;
+}
+
+aside {
+    grid-column: 2 / 3;
+    background-color: #bdc3c7;
+    padding: 2rem;
+}
+
+footer {
+    grid-column: 1 / span 2;
+    background-color: #34495e;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    background-color: #1a252f;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
