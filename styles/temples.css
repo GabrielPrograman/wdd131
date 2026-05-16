@@ -69,7 +69,8 @@ nav {
 }
 
 .navigation a.active {
-    background-color: #16a085;
+    background-color: #117a65;
+    color: white;
 }
 
 main {
