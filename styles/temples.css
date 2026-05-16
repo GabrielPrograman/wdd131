@@ -18,6 +18,12 @@ header {
     text-align: center;
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 #menu {
     font-size: 2rem;
     border: none;
@@ -58,8 +64,8 @@ header {
 }
 
 .navigation a:hover {
-    background-color: #1abc9c;
-    color: #2c3a50;
+    background-color: #117a65;
+    color: white;
 }
 
 .navigation a.active {
