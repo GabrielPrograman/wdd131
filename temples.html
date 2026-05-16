@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album - Gabriel Bruzual</title>
+    <meta name="description" content="WDD 131" - Temple Picture Album showcasing responsive design, CSS Grid, and dynamic JavaScript features.">
+    <meta name="author" content="Gabriel Bruzual">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css" media="(min-width: 48rem)">
+
+    <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="menu" aria-label="Toggle Menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+     <main>
+        <h2>Our Temple Collection</h2>
+        <div class="grid-container">
+            <figure>
+                <img src="images/columbia_temple_lds.jpeg" alt="Columbia Temple" loading="lazy" width="400" height="250">
+                <figcaption>Columbia Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/arequipa_peru_temple.webp" alt="Arequipa Peru Temple" loading="lazy" width="400" height="250">
+                <figcaption>Arequipa Peru Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/aba_nigeria_temple_lds.jpeg" alt="Aba Nigeria Temple" loading="lazy" width="400" height="250">
+                <figcaption>Aba Nigeria Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/abidjan_ivory_coast_temple_exterior.jpeg" alt="Abidjan Ivory Coast Temple" loading="lazy" width="400" height="250">
+                <figcaption>Abidjan Ivory Coast Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/manhattan-new-york-temple.jpeg" alt="Manhattan New York Temple" loading="lazy" width="400" height="250">
+                <figcaption>Manhattan New York Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/alabang_philippines_temple_exterior.jpeg" alt="Alabang Philippines Temple" loading="lazy" width="400" height="250">
+                <figcaption>Alabang Philippines Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/los-angeles-california-temple.jpeg" alt="Los Angeles California Temple" loading="lazy" width="400" height="250">
+                <figcaption>Los Angeles California Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/accra_ghana_temple_lds.jpeg" alt="Accra Ghana Temple" loading="lazy" width="400" height="250">
+                <figcaption>Accra Ghana Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/salt-lake-temple.jpeg" alt="Salt Lake Temple" loading="lazy" width="400" height="250">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+        </div>
+     </main>
+
+     <footer>
+        <p>&copy;<span id="currentyear"></span> Gabriel Bruzual. - Venezuela</p>
+        <p id="LastModified"></p>
+     </footer>
+</body>
+</html>
