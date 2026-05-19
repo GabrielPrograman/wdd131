@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Responsive Images Activity</title>
+    <meta name="description" content="Week 03 learning activity demonstrating responsive images and art direction using the picture element in HTML5 and CSS.">
+    <meta name="author" content="Gabriel Alejandro">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+<body>
+    <header>
+        <h1>Responsive Images Demonstration</h1>
+    </header>
+    
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/large.WEBP" media="(min-width: 1000px)">
+                <source srcset="images/medium.WEBP" media="(min-width: 500px)">
+                <img src="images/small.WEBP" alt="Beautiful view of selected temple architecture layout" width="500" height="250" loading="lazy">
+            </picture>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 | Gabriel Alejandro | WDD 131</p>
+    </footer>
+</body>
+</html>
