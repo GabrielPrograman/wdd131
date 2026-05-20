@@ -4,7 +4,7 @@
     --contrast-color: #CF1428;
     --text-color: #222222;
     --bg-light: #f4f6f9;
-    --card-bg: #rgba(255, 255, 255, 0.95);
+    --card-bg: rgba(255, 255, 255, 0.95);
     --font-main: "Roboto", sans-serif;
 }
 
@@ -65,7 +65,7 @@ main {
     color: var(--primary-color);
     margin-bottom: 1rem;
     font-size: 1.4rem;
-    border-bottom: 0.3rem;
+    border-bottom: 0.3rem solid var(--accent-color);
 }
 
 .card ul {
