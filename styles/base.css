@@ -60,7 +60,7 @@ main-container {
 }
 
 .card {
-    background-color: #1f4e5b;
+    background-color: #ffffff;
     border: 1px solid #cfd9db;
     border-radius: 8px;
     overflow: hidden;
@@ -70,7 +70,7 @@ main-container {
 
 .card h2 {
     background-color: #1f4e5b;
-    color: white;
+    color: #ffffff;
     margin: 0;
     padding: 10px;
     font-size: 1.25rem;
