@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Filtered Temple Album - Gabriel Bruzual</title>
+    <meta name="description" content="WDD 131 Dynamic Web Fundamentals: Enhanced Temple Picture Album By Gabriel Bruzual.">
+    <meta name="author" content="Gabriel Bruzual">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css" media="(min-width: 48rem)">
+
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="menu" aria-label="Toggle Menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" data-filter="home" class="active">Home</a></li>
+                <li><a href="#" data-filter="old">Old</a></li>
+                <li><a href="#" data-filter="new">New</a></li>
+                <li><a href="#" data-filter="large">Large</a></li>
+                <li><a href="#" data-filter="small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 id="gallery-title">Our Temple Collection</h2>
+        <div class="grid-container"></div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Gabriel Bruzual | Venezuela</p>
+        <p id="LastModified"</p>
+    </footer>
+</body>
+</html>
