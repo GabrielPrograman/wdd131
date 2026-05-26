@@ -18,6 +18,11 @@ header {
     text-align: center;
 }
 
+.header-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
 nav {
     display: flex;
     flex-direction: column;

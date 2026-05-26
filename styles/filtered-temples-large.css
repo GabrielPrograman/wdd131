@@ -19,6 +19,11 @@ header {
     align-items: center;
 }
 
+.header-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
 .grid-container {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 2rem;
