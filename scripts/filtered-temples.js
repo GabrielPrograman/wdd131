@@ -67,7 +67,7 @@ const temples = [
 ];
 
 const gridContainer = document.querySelector(".grid-container");
-const galleryTitle = document.querySelector("main h2");
+const galleryTitle = document.querySelector("gallery-title");
 
 function displayTemples(filteredTemples) {
     gridContainer.innerHTML = "";
