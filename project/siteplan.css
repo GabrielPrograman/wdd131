@@ -149,3 +149,24 @@ footer {
 footer p {
     margin: 0.3rem 0;
 }
+
+.color-primary {
+    background-color: #1a365d;
+    color: #ffffff;
+}
+
+.color-secondary {
+    background-color: #2b6cb0;
+    color: #ffffff;
+}
+
+.color-accent {
+    background-color: #2f855a;
+    color: #ffffff;
+}
+
+.color-light {
+    background-color: #f7fafc;
+    color: #2d3748;
+    border: 1px solid #e2e8f0;
+}
