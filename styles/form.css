@@ -133,3 +133,14 @@ legend {
 .return-link:hover {
     opacity: 0.9;
 }
+
+@media screen and (min-width: 600px) {
+    main {
+        padding: 3rem;
+        max-width: 650px;
+    }
+
+    .stars {
+        gap: 1.5rem;
+    }
+}
