@@ -288,12 +288,14 @@ footer a {
 
     .main-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr) 280px;
-        align-items: start;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        align-items: stretch;
     }
 
     .sidebar {
-        grid-column: 4;
+        grid-column: 1 / -1;
+        margin-top: 1rem;
     }
 
     .content-split {
