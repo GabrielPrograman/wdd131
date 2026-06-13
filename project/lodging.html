@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lodging & Transport - Venezuela Temple</title>
+    <meta name="description" content="Accommodation and transportation guides for traveling to the Venezuela Temple.">
+    <meta name="author" content="Gabriel Bruzual">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/project.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1>Venezuela Temple Travel</h1>
+        </div>
+        <button id="menu-btn" aria-label="Toggle Menu">☰</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="lodging.html">Lodging & Transport</a> </li>
+                <li><a href="contact.html">Contact & Forms</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <h2>Lodging & Transport Information</h2>
+        <div class="content-split">
+            <div class="text-section">
+                <h3>Recommended Housing</h3>
+                <p>There are several approved patron housing options near the temple grounds. It is recommended to contact the administration directly for family rooms or large caravan dormitories.</p>
+                <ul>
+                    <li>Patron Housing Facility (On-site)</li>
+                    <li>Nearby Affiliated Hotels</li>
+                    <li>Caravan Hosting Centers</li>
+                </ul>
+            </div>
+            <img src="images/lodging.webp" alt="Comfortable lodging" loading="lazy" width="500" height="300" class="content-img">
+        </div>
+
+        <h3 class="section-title">Transportation Options</h3>
+        <p>Below is a dynamically updated list of transportation methods available for your visit:</p>
+        <div id="transport-list" class="dynamic-grid"></div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Gabriel Bruzual | Venezuela Temple Travel</p>
+        <p id="lastModified"></p>
+        <p><a href="references.html">Site References & Citations</a></p>
+    </footer>
+</body>
+</html>

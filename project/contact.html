@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Forms - Venezuela Temple</title>
+    <meta name="description" content="Schedule a caravan or contact the Venezuela Temple travel administration">
+    <meta name="author" content="Gabriel Bruzual">
+</head>
+<body>
+    <header>
+      <div class="logo-container">
+            <hi>Venezuela Temple Travel</hi>
+        </div>
+        <button id="menu-btn" aria-label="Toggle Menu">☰</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="lodging.html">Lodging & Transport</a> </li>
+                <li><a href="contact.html">Contact & Forms</a> </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="page-content">
+        <h2>Schedule a Session / Contact Us</h2>
+        <p>use the form below to register your family or youth caravan for an upcoming temple trip.</p>
+
+        <form method="get" action="contact.html" class="custom-form">
+            <fieldset>
+                <legend>Group Information</legend>
+
+                <label for="fname">First Name *</label>
+                <input type="text" id="fname" name="firstname" required>
+
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="visit-date">Expected Date of Arrival *</label>
+                <input type="date" id="visit-date" name="visitdate" required>
+
+                <label for="group-size">group Size</label>
+                <select id="group-size" name="groupsize">
+                    <option value="" disabled selected>Select size...</option>
+                    <option value="individual">Individual / Couple</option>
+                    <option value="family">Family (3-8)</option>
+                    <option value="caravan">Ward/Stake Caravan (9+)</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Services Needed (Check all that apply)</legend>
+                <label for="serv-housing"><input type="checkbox" id="serv-housing" name=services value="housing"> Patron Housing</label>
+                <label for="serv-meals"><input type="checkbox" id="serv-meals" name="services" value="housing"> Patron Housing</label>
+                <label for="serv-clothing"><input type="checkbox" id="ser-clothing" name="services" value="clothing"> Clothing Rental</label>
+                <label for="serv-parking"><input type="checkbox" id="serv-parking" name="services" value="parking"> Bus Parking</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Have you visited this temple before? *</legend>
+                <label for="visit-yes"><input type="radio" id="visit-yes" name="visited" value="yes" required> Yes</label>
+                <label for="visit-no"><input type="radio" id="visit-no" name="visited" value="no" required> No</label>
+            </fieldset>
+
+            <label for="message">Additional Question or Notes:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <input type="submit" value="Submit Request">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Gabriel Bruzual | Venezuela temple Travel</p>
+        <p id="lastModified"></p>
+        <p><a href="references.html">Site References & Citations</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Venezuela Temple Travel</title>
+    <meta name="description" content="Comprehensive travel guide and resource hub for planning visits, caravans, and trips to the temple in Venezuela.">
+    <meta name="author" content="Gabriel Bruzual">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/project.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <hi>Venezuela Temple Travel</hi>
+        </div>
+        <button id="menu-btn" aria-label="Toggle Menu">☰</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="lodging.html">Lodging & Transport</a> </li>
+                <li><a href="contact.html">Contact & Forms</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="images/temple-hero.webp" alt="View of the Venezuela Temple" width="800" height="400">
+            <div class="hero-text">
+                <h2>Plan Your Spiritual Journey</h2>
+                <p id="visit-message" class="visit-counter"></p>
+                <a href="contact.html" class="cta-button">Schedule a Session</a>
+            </div>
+        </section>
+
+        <div class="main-grid">
+            <section class="card">
+                <h3>Lodging Options</h3>
+                <img src="images/lodging.webp" alt="Nearby housing" loading="lazy" width="400" height="250">
+                <p>Find approved and comfortable housing near the temple site for your family or youth caravan.</p>
+                <a href="lodging.html" class="link-btn">Read More</a>
+            </section>
+
+            <section class="card">
+            <h3>Transportation</h3>
+            <img src="images/transport.webp" alt="Transport options" loading="lazy" width="400" height="250">
+            <p>Up-to-date recommendations for the local transportation and parking logistics.</p>
+            <a href="lodging.html" class="link-btn">Read More</a>
+            </section>
+
+            <section class="card">
+                <h3>Session Schedules</h3>
+                <img src="images/schedule.webp" alt="Temple doors" loading="lazy" width="400" height="250">
+                <p>Current operational hours for ordinance sessions and contact numbers.</p>
+                <a href="contact.html" class="link-btn">Contact Us</a>
+            </section>
+
+            <aside class="sidebar">
+                <h3>Quick Alerts</h3>
+                <p><strong>Notice</strong> Temple housing fills up quickly. Book at least one month in advance</p>
+                <div id="dynamic-tips-container"></div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Gabriel Bruzual | Venezuela Temple Travel</p>
+        <p id="lastModified"></p>
+        <p><a href="references.html">Site references & Citations</a></p>
+    </footer>
+</body>
+</html>
